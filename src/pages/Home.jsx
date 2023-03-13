@@ -1,5 +1,5 @@
 import Header from "../components/Header"
-import ProdutList from "../components/ProducList"
+import ProductList from "../components/ProducList"
 import Footer from "../components/Footer"
 function Home(){
     return(
@@ -11,4 +11,4 @@ function Home(){
     );
 }
 
-export default Home;    
+export default Home;

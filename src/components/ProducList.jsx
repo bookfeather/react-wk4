@@ -1,3 +1,5 @@
+import { Row, Col } from "antd";
+import products from '../json/product.json'
 export default function ProdutList() {
   return (
     <div >
@@ -7,7 +9,7 @@ export default function ProdutList() {
           <hr className="divider--dark" />
 
           <Row gutter={[32, 32]}>
-            {product.map(product => (
+            {products.map(product => (
               <Col key={product.id}
                 sm={{ span: 12 }}
                 lg={{ span: 8 }}
