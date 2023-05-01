@@ -1,6 +1,12 @@
 import { Row, Col } from "antd";
-import products from '../json/product.json'
+// import products from '../json/product.json'
+import { useImages } from '../react-query'
+
 export default function ProdutList() {
+
+  const { data, isLoading } = useImages()
+  const products = data || []
+
   return (
     <div >
       <article className="image__layout py-3 py-sm-5">

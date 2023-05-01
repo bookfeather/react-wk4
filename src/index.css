@@ -37,6 +37,7 @@
 }
 
 .header__avatar {
+  margin-top: 50px;
   width: 10rem;
   height: 10rem;
 }
@@ -50,7 +51,8 @@
 .header__slogan {
   font-size: 1.25em;
   text-transform: uppercase;
-  margin: 0;
+  margin: auto;
+  color: black;
 }
 
 @media screen and (min-width: 768px) {

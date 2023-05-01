@@ -5,10 +5,10 @@ function Home(){
     return(
         <div>
             <Header className="layoutHeader"  />
-            <ProductList className="laytoutContent" />
+            <ProductList className="layoutContent" />
             <Footer className="layoutFooter" />
         </div>
     );
 }
-
+ 
 export default Home;
